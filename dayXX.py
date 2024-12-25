@@ -5,8 +5,8 @@ import sys
 import itertools
 import functools
 
-#INPUT='day25.input'
-INPUT='day25.small.input'
+#INPUT='day23.input'
+INPUT='day23.small.input'
 
 try:
     INPUT=sys.argv[1]
@@ -14,7 +14,7 @@ except:
     pass
 
 ARG2=0
-try:
+try ARG2:
     ARG2=int(sys.argv[2])
 except:
     pass
